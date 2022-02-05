@@ -1,4 +1,61 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: sans-serif;
+}
+
+/* Header + Navbar */
+
+header{
+    width: 100%;
+    padding: 1% 0 1% 1%;
+}
+
+nav{
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+a:after{
+    text-decoration: none;
+    color: inherit
+}
+
+/* /Header + Navbar */
+
+/* Jumbotron */
+
+#jumbotron{
+    margin: 3% 0;
+    padding: 3% 5%;
+    width: 100vw;
+    border: 1px solid #b4d0e7;
+    background-color: #b4d0e7;
+}
+
+h1{
+    display: inline-block;
+    margin: 3% 5% 5%;
+    text-align: justify;
+    font-size: 90px;
+}
+
+#jumbo{
+    float: right;
+    width: 900px;
+    height: 500px;
+}
+
+.txt{
+    text-align: center;
+    display: inline;
+}
+
+/* /Jumbotron */
+
+#restrict{
+
 }
