@@ -1,39 +1,19 @@
+/* Istructions */
+
 *{
     box-sizing: border-box;
     margin: 0;
     font-family: sans-serif;
 }
 
-/* Header + Navbar */
-
-header{
-    width: 100%;
-    padding: 1% 0 1% 1%;
-}
-
-nav{
-    position: fixed;
-}
-
 a{
     text-decoration: none;
     color: inherit
 }
+
 a:after{
     text-decoration: none;
     color: inherit
-}
-
-/* /Header + Navbar */
-
-/* Jumbotron */
-
-#jumbotron{
-    margin: 3% 0;
-    padding: 3% 5%;
-    width: 100vw;
-    border: 1px solid #b4d0e7;
-    background-color: #b4d0e7;
 }
 
 h1{
@@ -43,19 +23,117 @@ h1{
     font-size: 90px;
 }
 
+h2{
+    display: block;
+    font-size: 50px; 
+}
+
+.down{
+    display: block;
+}
+
+.restrict{
+    display: block;
+    margin: 25% 15% 10% 15%;
+    width: 70%;
+}
+
+/* /Istructions */
+
+
+/* Header + Navbar */
+
+header{
+    width: 100vw;
+    padding: 1% 0 0 1%;
+}
+
+.logo{
+    float: left;
+}
+
+.navsx{
+    font-weight: bold;
+    position: relative;
+    padding-left: 3%;
+}
+
+
+.navdx{
+    font-weight: bold;
+    position: relative;
+    padding-left: 3%;
+    left: 32%;
+    
+}
+
+#buttondx{
+    width: 65px;
+    height: 35px;
+    margin-left: 35%;
+    background-color: #0061ff;
+    border: 1px solid #0061ff;
+    color: white;
+}
+
+
+/* /Header + Navbar */
+
+
+/* Jumbotron */
+
+#jumbotron{
+    margin: 1% 0;
+    padding: 3% 5%;
+    width: 100vw;
+    height: 800px;
+    border: 1px solid #b4d0e7;
+    background-color: #b4d0e7;
+}
+
 #jumbo{
     float: right;
     width: 900px;
     height: 500px;
 }
 
+#j_restrict{
+    display: inline-block;
+    margin-left: 5%;
+    width: 450px;
+}
+
 .txt{
+    font-size: larger;
     text-align: center;
     display: inline;
 }
 
+#freetrial{
+    display: inline-block;
+    font-size: 18px;
+    width: 250px;
+    height: 50px;
+    margin: 5% 0 5% 0;
+    background-color: #0061ff;
+    border: 1px solid #0061ff;
+    color: white;
+}
+
+.arrow{
+    display: block;
+    margin-top: 8%;
+    font-size: 40px;
+}
+
 /* /Jumbotron */
 
-#restrict{
 
+/* Plain options */
+
+.radio{
+    margin-top: 8%;
+    word-spacing: 5px;
 }
+
+/* /Plain options */
