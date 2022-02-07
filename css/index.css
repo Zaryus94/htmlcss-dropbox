@@ -16,6 +16,11 @@ a:after{
     color: inherit
 }
 
+#link{
+    color: #136cff;
+    text-decoration: underline;
+}
+
 h1{
     display: inline-block;
     margin: 3% 5% 5%;
@@ -34,8 +39,16 @@ h2{
 
 .restrict{
     display: block;
-    margin: 25% 15% 10% 15%;
-    width: 70%;
+    margin: 25% 10% 10% 10%;
+    width: 80%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+hr{
+    width: 17%;
 }
 
 /* /Istructions */
@@ -132,8 +145,52 @@ header{
 /* Plain options */
 
 .radio{
-    margin-top: 8%;
+    margin: 6% 0 3% 2%;
     word-spacing: 5px;
+}
+
+.column{
+    float: left;
+    width: 24%;
+    height: 1000px;
+    border: 1px solid gray;
+    margin: 0 2%;
+    text-align: center;
+}
+
+.cell{
+    display: inline-block;
+    padding: 4% 0;
+    width: 100%;
+    height: 4%;
+    border: 1px solid gray;
+}
+
+.c_content{
+    margin: 10% 4% 1% 6%;
+    text-align: justify;
+}
+
+#big{
+    font-size: 500px;
+}
+
+.c_button{
+    display: inline-block;
+    font-size: 18px;
+    width: 280px;
+    height: 40px;
+    background-color: #0061ff;
+    border: 1px solid #0061ff;
+    color: white;
+}
+
+.big{
+    font-size: 25px;
+}
+
+#c_gray{
+    color: gray;
 }
 
 /* /Plain options */
