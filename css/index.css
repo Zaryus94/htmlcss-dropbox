@@ -47,6 +47,11 @@ h2{
     font-weight: bold;
 }
 
+ul{
+    line-height: 250%;
+    list-style: none;
+}
+
 hr{
     width: 17%;
 }
@@ -185,8 +190,12 @@ header{
     color: white;
 }
 
-.big{
+.c_big{
     font-size: 25px;
+}
+
+#price{
+    font-size: medium;
 }
 
 #c_gray{
