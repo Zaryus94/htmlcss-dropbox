@@ -16,6 +16,10 @@ a:after{
     color: inherit
 }
 
+.allign{
+  left: 50px;
+}
+
 #link{
     color: #136cff;
     text-decoration: underline;
@@ -172,8 +176,8 @@ header{
 }
 
 .c_content{
-    margin: 10% 4% 1% 6%;
-    text-align: justify;
+    margin: 10% 4% 1% 0;
+    text-align: left;
 }
 
 #big{
@@ -182,8 +186,9 @@ header{
 
 .c_button{
     display: inline-block;
+    margin:  5% 10% 5% 12%;
     font-size: 18px;
-    width: 280px;
+    width: 260px;
     height: 40px;
     background-color: #0061ff;
     border: 1px solid #0061ff;
